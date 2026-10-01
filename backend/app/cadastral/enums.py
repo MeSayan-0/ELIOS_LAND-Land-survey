@@ -1,0 +1,25 @@
+from enum import Enum
+
+
+class CadastralLayerType(str, Enum):
+    OLD = "OLD"
+    NEW = "NEW"
+
+
+class ParcelChangeType(str, Enum):
+    NO_SIGNIFICANT_CHANGE = "NO_SIGNIFICANT_CHANGE"
+    BOUNDARY_SHIFT = "BOUNDARY_SHIFT"
+    AREA_INCREASE = "AREA_INCREASE"
+    AREA_DECREASE = "AREA_DECREASE"
+    PARCEL_SPLIT = "PARCEL_SPLIT"
+    PARCEL_MERGE = "PARCEL_MERGE"
+    NEW_PARCEL = "NEW_PARCEL"
+    REMOVED_PARCEL = "REMOVED_PARCEL"
+    REQUIRES_REVIEW = "REQUIRES_REVIEW"
+
+
+class ReviewStatus(str, Enum):
+    PENDING = "PENDING"
+    ACCEPTED = "ACCEPTED"
+    REJECTED = "REJECTED"
+    MODIFIED = "MODIFIED"

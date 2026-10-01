@@ -1,0 +1,21 @@
+import os
+
+
+# These are analytical defaults only.
+# They are NOT legal tolerances.
+
+AREA_TOLERANCE_PERCENT = float(
+    os.getenv("CADASTRAL_AREA_TOLERANCE_PERCENT", "2.0")
+)
+
+BOUNDARY_TOLERANCE_METERS = float(
+    os.getenv("CADASTRAL_BOUNDARY_TOLERANCE_METERS", "0.50")
+)
+
+OVERLAP_TOLERANCE_PERCENT = float(
+    os.getenv("CADASTRAL_OVERLAP_TOLERANCE_PERCENT", "95.0")
+)
+
+MATCH_OVERLAP_PERCENT = float(
+    os.getenv("CADASTRAL_MATCH_OVERLAP_PERCENT", "20.0")
+)
