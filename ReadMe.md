@@ -185,59 +185,6 @@ Evidence + Technical Report
              Evidence / Report
 ```
 
----
-
-## Technology Stack
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=react,typescript,vite,python,fastapi,postgresql,docker,git,github,vercel&perline=10" />
-
-</div>
-
-### Frontend
-
-- React
-- TypeScript
-- Vite
-- OpenLayers
-- CSS
-
-### Backend
-
-- Python
-- FastAPI
-- Uvicorn
-- SQLAlchemy
-- Psycopg
-- GeoAlchemy2
-
-### Geospatial
-
-- PostgreSQL
-- PostGIS
-- GeoPandas
-- Shapely
-- PyProj
-- Rasterio
-- Fiona
-- Pyogrio
-- OpenLayers
-
-### Survey / Processing
-
-- NodeODM / OpenDroneMap
-- UAV imagery
-- GNSS / GCP data
-- GeoTIFF
-- DSM
-- Point clouds
-
-### Deployment
-
-- Vercel
-- Render
-- Supabase PostgreSQL / PostGIS
 
 ---
 
